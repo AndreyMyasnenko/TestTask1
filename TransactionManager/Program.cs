@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Text.Json;
 
 namespace TransactionManager
 {
     static class Program
     {
         private const string EXIT_COMMAND = "exit";
-
-        static Dictionary<int, Transaction> transactions = new Dictionary<int, Transaction>();
 
         static void Main(string[] args)
         {
